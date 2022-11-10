@@ -8,6 +8,7 @@ btnPrimary.addEventListener ("click", function(){
     const selectValue = document.getElementById("difficoltà").value;
 
     griglia.innerHTML = "";
+    punteggio.innerHTML = "";
 
     const grigliaCento = myGrid(selectValue);
     
