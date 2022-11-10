@@ -1,6 +1,7 @@
 const griglia = document.getElementById("griglia");
 const btnPrimary = document.getElementById("pulsante-principale");
 
+console.log(listaMine("100"))
 
 btnPrimary.addEventListener ("click", function(){
 
