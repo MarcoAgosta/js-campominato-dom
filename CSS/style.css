@@ -1,0 +1,25 @@
+.quadrato-100{
+    flex-basis: 10%;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+}
+
+.quadrato-81{
+    flex-basis: 11.1111%;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+}
+
+.quadrato-49{
+    flex-basis: 14.28%;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+}
+
+select{
+    vertical-align:middle;
+}
+
+.blue-sky{
+    background-color: aqua;
+}

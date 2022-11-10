@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campominato-grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="m-4">Generatore di Griglia </h1>
+
+        <div>
+            <button id="pulsante-principale" class="btn btn-primary">Premi qua</button>
+
+            <select name="selettore-difficoltà" id="difficoltà">
+                <option value="100">100</option>
+                <option value="81">81</option>
+                <option value="49">49</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container mt-4 mb-4">
+
+        <div id="griglia"></div>
+
+    </div>
+
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script type="text/javascript" src="JS/functions/centoGrid.js"></script>
+    <script type="text/javascript" src="JS/functions/ottantunoGrid.js"></script>
+    <script type="text/javascript" src="JS/functions/quarantanoveGrid.js"></script>
+</body>
+</html>
