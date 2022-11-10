@@ -1,5 +1,6 @@
 const griglia = document.getElementById("griglia");
 const btnPrimary = document.getElementById("pulsante-principale");
+const punteggio = document.getElementById("punteggio")
 
 
 btnPrimary.addEventListener ("click", function(){

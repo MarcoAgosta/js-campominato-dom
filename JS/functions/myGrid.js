@@ -9,7 +9,7 @@ function myGrid(numero) {
 
     grigliaQuadrata.classList.add("d-flex", "flex-wrap");
 
-    let punteggio = 0;
+    let punti = 0;
     let gioco = true;
 
     for ( let i=1 ; i <= numero; i++){
@@ -34,11 +34,13 @@ function myGrid(numero) {
 
                    gioco = false;
 
+                   punteggio.innerHTML = `Partita conclusa, il tuo punteggio è: ${punti}`
+
                } else {
 
                    this.classList.toggle("blue-sky");
 
-                   punteggio += 1;
+                   punti += 1;
 
                }
             }
